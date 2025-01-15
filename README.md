@@ -82,7 +82,7 @@ Analyzes feature importance for curious coders, highlighting the most influentia
   - `randomForest`
   - `forecast`
   - `tseries`
-
+  - `caret`
 ---
 
 ## Example Datasets
