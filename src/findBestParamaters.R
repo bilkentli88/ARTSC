@@ -60,14 +60,14 @@ if (verbose) {
 # 3) Set search ranges (p_max, d_max) based on complexity
 # -----------------------------------------------------------------------------
 if (complexity_category == "Simple") {
-    p_max <- 25
+    p_max <- 24
     d_max <- 3
 } else if (complexity_category == "Moderate") {
-    p_max <- 35
-    d_max <- 5
+    p_max <- 30
+    d_max <- 4
 } else {
-    p_max <- 45
-    d_max <- 6
+    p_max <- 36
+    d_max <- 5
 }
 
 # -----------------------------------------------------------------------------
