@@ -30,7 +30,7 @@ source("Helpers/computeAccuracies.R") # Cross-validation accuracy computation
 # -----------------------------------------------------------------------------
 # Global settings
 # -----------------------------------------------------------------------------
-seed_value <- 375   # Define seed for reproducibility
+seed_value <- 88  # Define seed for reproducibility
 set.seed(seed_value)      # Ensure reproducible results
 verbose <- TRUE           # Enable verbose output
 p_value_threshold <- 0.01 # KPSS test threshold
@@ -38,7 +38,7 @@ p_value_threshold <- 0.01 # KPSS test threshold
 # -----------------------------------------------------------------------------
 # User-specified parameters
 # -----------------------------------------------------------------------------
-dataset_name <- "FordB" # Dataset name (e.g., "OsuLeaf", "ECG200")
+dataset_name <- "OsuLeaf" # Dataset name (e.g., "OsuLeaf", "ECG200")
 method_name <- "rf"       # Algorithm: "rf", "svm", or "knn"
 
 # -----------------------------------------------------------------------------
