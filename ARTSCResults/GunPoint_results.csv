@@ -1,2 +1,0 @@
-"dataset_name","lag_value","diff_value","train_accuracy","test_accuracy"
-"GunPoint",15,0,1,0.933333333333333
