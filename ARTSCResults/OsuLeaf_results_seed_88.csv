@@ -1,0 +1,2 @@
+dataset_name,lag_value,diff_value,train_accuracy,test_accuracy,seed
+OsuLeaf,8,2,1,0.826446281,88
